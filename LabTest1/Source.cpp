@@ -6,11 +6,11 @@ using namespace std;
 int main()
 {
 	double commissionPer = 0.09;
-	double item1 = 299.99, 
-		   item2 = 89.75, 
-		   item3 = 189.95, 
-		   item4 = 150.89, 
-		   item5 = 429.45;
+	double item1 = 299.99,
+		item2 = 89.75,
+		item3 = 189.95,
+		item4 = 150.89,
+		item5 = 429.45;
 	int regularPay = 200;
 	int item1Sales, item2Sales, item3Sales, item4Sales, item5Sales;
 	double totalSales, commissionPay;
@@ -26,12 +26,10 @@ int main()
 	cout << "5. Item 2 ($429.45)" << endl;
 	cout << " ==========================================================================\n\n";
 
+
+
 	cout << "How many units of item 1 (299.99) did you sell? ";
 	cin >> item1Sales;
-	/*if (cin.fail())
-	{
-		cout << "Enter a valid number!";
-	}*/
 	cout << "How many units of item 2 (89.75) did you sell? ";
 	cin >> item2Sales;
 	cout << "How many units of item 3 (189.95) did you sell? ";
@@ -42,13 +40,19 @@ int main()
 	cin >> item5Sales;
 
 	totalSales = (item1 * item1Sales) + (item2 * item2Sales) + (item3 * item3Sales) + (item4 * item4Sales) + (item5 * item5Sales);
-	commissionPay = totalSales * commissionPer;
-	cout << fixed << showpoint << setprecision(2); // Show currency
-	
-	cout << " ==========================================================================\n";
-	cout << "Your total pay for the week is: $" << (regularPay + commissionPay) << endl;
-	cout << " ==========================================================================\n";
+	if (totalSales > 0) // If numbers entered are positive. Run
+	{
+		commissionPay = totalSales * commissionPer;
+		cout << fixed << showpoint << setprecision(2); // Show currency
 
+		cout << "\n==========================================================================\n";
+		cout << "Your total pay for the week is: $" << (regularPay + commissionPay) << endl;
+		cout << " ==========================================================================\n";
+	}
+	else if (totalSales < 0) // If numbers entered are negative. 
+	{
+		cout << "Invalid entry, please enter a positive number!\n";
+	}
 
 	return 0;
 }
