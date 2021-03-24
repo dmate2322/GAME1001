@@ -7,33 +7,22 @@ void celsius(double);
 
 int main()
 {
-	int value;
+	int value, value2, value3, value4, value5;
 	int size = 101;
 	int choice;
 
 	cout << "Welcome to the Fahrenheit to Celsius Converter!\n";
 	cout << "Please enter a temperature: ";
-	cin >> value;
+	cin >> value >> value2 >> value3 >> value4 >> value5;
+	
+
 	celsius(value);
-	value = -20;
-	cout << "\nPress 1 to see a table, Press 2 to Exit ";
-	cin >> choice;
-	if (choice == 1)
-	{
-		for (int i = -20; i < size; i++)
-		{
-			celsius(value);
-			value++;
-		}
-		cout << "\nThank you have a good day!";
-	}
-	else if (choice == 2)
-	{
-		cout << "\nGoodbye!";
-
-	}
-
-
+	celsius(value2);
+	celsius(value3);
+	celsius(value4);
+	celsius(value5);
+		
+	
 
 	return 0;
 }
