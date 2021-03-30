@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bb6d371b-dda9-4a7c-8e7d-73bb05e8ecda}</ProjectGuid>
-    <RootNamespace>LabDemo7</RootNamespace>
+    <ProjectGuid>{54731984-0500-44de-a493-8f28c7398fdc}</ProjectGuid>
+    <RootNamespace>LabDemo8</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,27 +139,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-01.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-02.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-03.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-04.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-05.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-06.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-07.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-08.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-09.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-10.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-11.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-12.cpp" />
-    <ClCompile Include="Classes.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
-    <ClCompile Include="RectangleTest.cpp" />
-    <ClCompile Include="Source2.cpp" />
-    <ClCompile Include="Source3.cpp" />
-    <ClCompile Include="Source4.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Rectangle.h" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-13.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-14.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-15.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-15B.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-16.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-17.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-18.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-19.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter07\pr7-20.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter09\pr9-01.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter09\pr9-02.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter09\pr9-03.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter09\Bubble Sort.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter09\pr9-05.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter09\pr9-06.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter09\pr9-08.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter09\pr9-09.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Chapter09\Vector S.cpp" />
+    <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="Searching and Sorting.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
