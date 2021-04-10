@@ -18,8 +18,6 @@ public:
 	~Weapons();
 
 	void setWeapon(string, string, int, int, bool);
-	void setName(string);
-	void setSound(string);
 	void setUse(int);
 	void setCost(int);
 	void setOwner(bool);
